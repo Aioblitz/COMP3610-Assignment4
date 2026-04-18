@@ -11,7 +11,6 @@ from fastapi.requests import Request
 #
 # Part 2: Model Serving with FastAPI
 #
-mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "http://127.0.0.1:5000"))
 
 #create app
 app = FastAPI()
